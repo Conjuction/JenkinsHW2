@@ -2,11 +2,13 @@ package form;
 
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @Owner("Sukhinin Dmitrii")
 @Severity(SeverityLevel.BLOCKER)
 @DisplayName("Успешная регистрация пользователя")
+@Tag("smoke")
 public class RegistrationForm extends TestBase {
     @Test
     void registrationForm() {
