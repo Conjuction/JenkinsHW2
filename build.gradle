@@ -39,8 +39,4 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-task smoke_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags("smoke")
-    }
-}
+
